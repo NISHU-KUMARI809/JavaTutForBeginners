@@ -7,8 +7,8 @@ public class demo2 extends JFrame {
         getContentPane().setBackground(Color.black);
         JButton b=new JButton("click");
         add(b);
-        b.setBounds(300,100,300,50);
-        setBounds(100,100,600,600);
+        b.setBounds(20,100,100,50);
+        setBounds(10,10,300,300);
         setLayout(null);
         setVisible(true);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
